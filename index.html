@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+    .previous {background-color: limegreen;
+    color: black;
+    border-radius: 50%;
+    padding: 8px 16px;}
+</style>
+<script>
+    function prev(){
+        document.getElementById("iframe").contentWindow.history.back();
+        console.log("HERE"); }
+</script>
+<a herf="#" onclick = "prev()">&#8249; test</a>
+<iframe src="https://onepedia.miraheze.org/wiki/Main_Page" height = 1000 width = 100% title="iframe" id="iframe"></iframe>
+
+</body>
+</html>
